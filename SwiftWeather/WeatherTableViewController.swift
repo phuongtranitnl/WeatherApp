@@ -8,13 +8,14 @@ class WeatherTableViewController: UITableViewController, UISearchBarDelegate {
     @IBOutlet weak var searchBar: UISearchBar!
     
     var forecastData = [Weather]()
+    var location = "Ho Chi Minh city"
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         searchBar.delegate = self
         
-        updateWeatherForLocation(location: "Ho Chi Minh city")
+        updateWeatherForLocation(location: location)
     }
     
     

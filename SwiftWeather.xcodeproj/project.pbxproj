@@ -13,6 +13,7 @@
 		52AA6F771EC7345F003A477C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AA6F751EC7345F003A477C /* LaunchScreen.storyboard */; };
 		52AA6F7F1EC73576003A477C /* WeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA6F7E1EC73576003A477C /* WeatherTableViewController.swift */; };
 		52AA6F811EC735CB003A477C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA6F801EC735CB003A477C /* Weather.swift */; };
+		9F8FE1FF21D5D32A00DD5F4F /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FE1FE21D5D32A00DD5F4F /* WeatherDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52AA6F781EC7345F003A477C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52AA6F7E1EC73576003A477C /* WeatherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherTableViewController.swift; sourceTree = "<group>"; };
 		52AA6F801EC735CB003A477C /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		9F8FE1FE21D5D32A00DD5F4F /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				52AA6F6C1EC7345F003A477C /* AppDelegate.swift */,
 				52AA6F801EC735CB003A477C /* Weather.swift */,
 				52AA6F7E1EC73576003A477C /* WeatherTableViewController.swift */,
+				9F8FE1FE21D5D32A00DD5F4F /* WeatherDetailViewController.swift */,
 				52AA6F701EC7345F003A477C /* Main.storyboard */,
 				52AA6F731EC7345F003A477C /* Assets.xcassets */,
 				52AA6F751EC7345F003A477C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			files = (
 				52AA6F7F1EC73576003A477C /* WeatherTableViewController.swift in Sources */,
 				52AA6F811EC735CB003A477C /* Weather.swift in Sources */,
+				9F8FE1FF21D5D32A00DD5F4F /* WeatherDetailViewController.swift in Sources */,
 				52AA6F6D1EC7345F003A477C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
